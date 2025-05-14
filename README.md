@@ -1,6 +1,8 @@
 # Executive-Intelligence (Telco Turnaround Simulator)
 
+
 **Great strategy starts with clarity — not just data.**  
+
 This project simulates how executives can use predictive insights, ROI modeling, and targeted actions to reverse business decline and drive smarter decisions.
 
 It blends business intelligence, data science, and executive thinking into a strategic decision-support system designed to guide action, not just observation.
@@ -12,6 +14,7 @@ Built on IBM’s enterprise-grade customer dataset, the simulator empowers decis
 - Take action — not just analyze
 
 While the dataset simulates a telecom provider, the strategic approach — churn prediction, CLTV analysis, and ROI modeling — applies broadly across subscription-driven industries.
+
 So whether you’re in telecom, SaaS, or any subscription-driven business, this project shows how to connect insights to impact.
 
 ## Why the IBM Telco Dataset?
