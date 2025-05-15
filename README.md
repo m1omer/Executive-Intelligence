@@ -58,11 +58,11 @@ By leveraging this dataset, the project aligns with actual enterprise BI workflo
      - **Revenue Risk & Retention Simulator** — Allows executives to model potential revenue saved and Net ROI based on varying retention spend scenarios.
 
 5. Deliver Strategic Memo
-   • File: strategy-memo.pdf *(coming soon)*
+   • File: strategy-memo.pdf 
    • Brief includes:
-     - Top strategic recommendations
-     - Retention spend guidance
-     - Simulated ROI outcomes
+     - Top strategic recommendations to reduce churn and protect revenue
+     - Retention spend guidance based on churn risk segments
+     - Use cases and insights from the ROI simulator
 ```
 
 ## Deliverables
