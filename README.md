@@ -65,6 +65,10 @@ By leveraging this dataset, the project aligns with actual enterprise BI workflo
      - Simulated ROI outcomes
 ```
 
+## Deliverables
+- Strategic Memo (2-page brief for executives & consultants)
+- Live Tableau Dashboards
+- Cleaned dataset & Python modeling scripts
 
 
 ## Skills Applied
