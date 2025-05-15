@@ -23,7 +23,7 @@ This project is built on the [IBM Telco Customer Churn dataset](https://www.ibm.
 
 This synthetic, enterprise-grade dataset was designed by IBM to mirror real-world customer, billing, and service patterns within a telecom provider.
 
-✅ By leveraging this dataset, the project aligns with actual enterprise BI workflows and demonstrates skills that translate directly to consulting, strategy, and executive-facing analytics roles.
+By leveraging this dataset, the project aligns with actual enterprise BI workflows and demonstrates skills that translate directly to consulting, strategy, and executive-facing analytics roles.
 
 
 ## Live Tableau Dashboards
@@ -32,40 +32,34 @@ This synthetic, enterprise-grade dataset was designed by IBM to mirror real-worl
   A top-level executive summary of customer churn metrics, lifetime value, and contract risk segmentation.
 
 - [**Revenue Risk and Retention Strategy Simulator**](https://public.tableau.com/views/telcosimulatore2/SimulatorDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
-  A dynamic simulator to model saved revenue and net ROI based on retention spend — powered by sigmoid modeling and interactive parameters.
+  A dynamic simulator to model saved revenue and net ROI based on retention spend — powered by logistic regression modeling and interactive parameters.
 
 
 ## Project Workflow 
 
-📥 1. Load Raw Data (IBM Telco CSV)
-   • Source: IBM Cognos sample dataset
+```plaintext
 
-🧼 2. Clean & Engineer Features
+1. Load IBM Raw Data
+   • Source: IBM Cognos Analytics sample dataset
+
+2. Clean & Engineer Features
    • Script: clean_telco_data.py
-   • Tasks:
-     - Handle missing values
-     - Create churn flag (1 = churned)
-     - Estimate capped Customer Lifetime Value (CLTV_Est)
+   • Add churn flag and estimate capped CLTV (CLTV_Est)
 
-🧪 3. Score Churn Probability
+3. Predict Churn Probability
    • Notebook: churn_model_with_encoding.ipynb
-   • Tasks:
-     - Label encode categorical variables
-     - Train logistic regression model
-     - Add PredictedChurnProb column
-     - Save final enriched dataset → telco_turnaround_with_churn_scores.csv
+   • Train logistic regression and generate PredictedChurnProb
 
-📊 4. Build Executive Dashboard
-   • File: dashboard.twbx *(coming soon)*
-   • Tabs:
-     - KPI Overview
-     - Churn Risk Segmentation
-     - ROI Simulator (with parameter slider)
-     - Executive Summary
+4. Build Executive Dashboards
+   • File: telcosimulator.twbx
+   • Tool: Tableau
+   • Structure:
+     - **Executive Intelligence Dashboard** — Combines KPI Overview and Churn Risk Segmentation to highlight key performance drivers and customer risk segments.
+     - **Revenue Risk & Retention Simulator** — Allows executives to model potential revenue saved and Net ROI based on varying retention spend scenarios.
 
-📄 5. Deliver Strategic Recommendations
+5. Deliver Strategic Memo
    • File: strategy-memo.pdf *(coming soon)*
-   • Output:
-     - Executive summary
-     - Top 3 strategic plays
-     - Retention spend guidance + simulated ROI
+   • Brief includes:
+     - Top strategic recommendations
+     - Retention spend guidance
+     - Simulated ROI outcomes
