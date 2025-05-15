@@ -26,6 +26,15 @@ This synthetic, enterprise-grade dataset was designed by IBM to mirror real-worl
 ✅ By leveraging this dataset, the project aligns with actual enterprise BI workflows and demonstrates skills that translate directly to consulting, strategy, and executive-facing analytics roles.
 
 
+## Live Tableau Dashboards
+
+- [**Executive Intelligence Dashboard**](https://public.tableau.com/views/telcosimulatore/ExecutiveDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
+  A top-level executive summary of customer churn metrics, lifetime value, and contract risk segmentation.
+
+- [**Revenue Risk and Retention Strategy Simulator**](https://public.tableau.com/views/telcosimulatore2/SimulatorDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
+  A dynamic simulator to model saved revenue and net ROI based on retention spend — powered by sigmoid modeling and interactive parameters.
+
+
 ## Project Workflow 
 
 📥 1. Load Raw Data (IBM Telco CSV)
