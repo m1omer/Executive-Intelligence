@@ -63,11 +63,20 @@ By leveraging this dataset, the project aligns with actual enterprise BI workflo
      - Top strategic recommendations
      - Retention spend guidance
      - Simulated ROI outcomes
-```plaintext
 
-## Skill Tags
 
-- **Data Science**: Logistic regression, feature engineering, probability scoring  
-- **Business Intelligence**: Executive KPIs, cohort analysis, churn segmentation  
-- **Product Strategy**: ROI modeling, CLTV analysis, retention simulation  
+---
+
+## Skills Applied
+
+- **Data Science**: Logistic regression, feature engineering, churn prediction, probability scoring  
+- **Business Intelligence**: Executive KPIs, churn segmentation, cohort analysis  
+- **Product Strategy**: CLTV analysis, ROI modeling, retention simulation  
 - **Tools**: Python (Pandas, scikit-learn), Tableau, Jupyter
+
+
+## 🏷️ Skill Tags
+
+`#DataScience` `#BusinessIntelligence` `#ChurnModeling` `#LogisticRegression` `#CLTV`  
+`#ExecutiveDashboards` `#Tableau` `#Python` `#RetentionAnalysis` `#Strategy`  
+`#PredictiveModeling` `#FeatureEngineering` `#Jupyter` `#ConsultingProject`
